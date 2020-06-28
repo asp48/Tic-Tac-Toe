@@ -62,7 +62,7 @@ void main()
     int gd=DETECT,gm,ch,win,a;
     char array[10];
     clrscr();
-    initgraph(&gd,&gm,"C:\YOGISOFT\C++ByYOGISOFT\C++\TC\BGI");
+    initgraph(&gd,&gm,"C:\\TC\\BGI");
     left = (getmaxx() / 2 )- 120;
     top = (getmaxy() / 2) - 70;
     right = (getmaxx() / 2) + 100;
